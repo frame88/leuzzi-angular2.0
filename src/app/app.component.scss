@@ -4,7 +4,7 @@ body {
 }
 
 .bx {
-    border-right: 3px solid white;
+    border-right: 5px solid white;
 }
 
 .panels {
@@ -16,9 +16,10 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition-duration: 2s;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
     cursor:pointer;
-    background-image: url('../assets/img/bgimagedemo.jpg');
+    
     background-position: center;
     filter: grayscale(100%);
     color: rgb(108, 108, 108);
@@ -37,10 +38,15 @@ body {
     }
 }
 
-.panel-increase:hover {
-    animation: 0.2s increasePanel eas-in;
+.bg-0 {
+    background-image: url("../assets/img/austin-neill-5CusMrOVwqI-unsplash.jpg");
 }
-
+.bg-1 {
+    background-image: url("../assets/img/bgimagedemo.jpg");
+}
+.bg-2 {
+    background-image: url("../assets/img/dwinanda-nurhanif-mujito-pKT5Mg16w_w-unsplash.jpg");
+}
 
 #panel-profile {
     position: relative;
@@ -51,21 +57,4 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-
-    .div img {
-        position: absolute;
-        right: 45%;
-        top: 25%;
-    }
-}
-
-/*keyframes*/
-@keyframes increasePanel {
-    from {
-        min-width: 15%;
-    }
-    
-    to {
-        width: 30%;
-    }
 }

@@ -8,6 +8,10 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+a {
+    text-decoration: none;
+}
+
 // demo modifiche
 
 
@@ -171,6 +175,10 @@ s .w100vw {
     margin: 0 !important;
 }
 
+.m1 {
+    margin: 1rem !important;
+}
+
 .m-auto {
     margin: auto !important;
 }
@@ -195,6 +203,10 @@ s .w100vw {
     margin-top: 1rem !important;
 }
 
+.mt2 {
+    margin-top: 2rem !important;
+}
+
 .mb0 {
     margin-bottom: 0 !important;
 }
@@ -213,6 +225,10 @@ s .w100vw {
 
 .mb1 {
     margin-bottom: 1rem !important;
+}
+
+.mb2 {
+    margin-bottom: 2rem !important;
 }
 
 .mb3 {
