@@ -1,0 +1,19 @@
+<div>
+    <!-- triplo div  -->
+    <div *ngFor="let title of titlesPanels; index as i">
+        <div>
+            <h2>{{title}}</h2>
+            <span>{{subtitles[i]}}</span>
+        </div>
+        <div>
+            <button>click me</button>
+        </div>
+    </div>
+
+    <div>
+        <div style="display: flex; width: 50%;">
+            <img style="width: 100px;" src="../assets/img/newlogo.png" alt="">
+        </div>
+        <h1>logo</h1>
+    </div>
+</div>
