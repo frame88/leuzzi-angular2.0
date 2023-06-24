@@ -1,6 +1,6 @@
-<div class="w100vw h100vh flex" style="background-color: red">
+<div class="w100vw h100vh flex">
 
-    <div *ngFor="let title of titlesPanels; index as i" class="w20 h100 flex-column align-center justify-center bx">
+    <div id="panels" *ngFor="let title of titlesPanels; index as i" class="bx">
         <div>
             <h2>{{title}}</h2>
             <span>{{subtitles[i]}}</span>
