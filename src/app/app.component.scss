@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// demo modifiche
+
+.bx {
+    border: 2px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
 .w10 {
     width: 10%;
 }
@@ -34,6 +53,10 @@
     width: 100% !important;
 }
 
+.w100vw {
+    width: 100vw !important;
+}
+
 .w100px {
     width: 100px;
 }
@@ -44,6 +67,10 @@
 
 .h100 {
     height: 100% !important;
+}
+
+.h100vh {
+    height: 100vh !important;
 }
 
 .h10 {

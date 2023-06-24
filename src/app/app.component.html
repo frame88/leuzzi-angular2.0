@@ -1,6 +1,6 @@
-<div>
-    <!-- triplo div  -->
-    <div *ngFor="let title of titlesPanels; index as i">
+<div class="w100vw h100vh flex" style="background-color: red">
+
+    <div *ngFor="let title of titlesPanels; index as i" class="w20 h100 flex-column align-center justify-center bx">
         <div>
             <h2>{{title}}</h2>
             <span>{{subtitles[i]}}</span>
@@ -10,10 +10,14 @@
         </div>
     </div>
 
-    <div>
-        <div style="display: flex; width: 50%;">
+    <div class="w40 h100 flex-column align-center justify-center text-center bx">
+        <div>
             <img style="width: 100px;" src="../assets/img/newlogo.png" alt="">
         </div>
-        <h1>logo</h1>
+        <div class="w50">
+            <h1>Francesco Leuzzi</h1>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, sunt nisi animi at distinctio eum soluta dolor voluptas cupiditate quia officiis, harum dolore maiores quod mollitia. Illo nemo ex temporibus!</span>
+            <h2><i class="fa-brands fa-linkedin"></i></h2>
+        </div>
     </div>
 </div>
