@@ -1,16 +1,18 @@
 <div class="w100vw h100vh flex">
 
-    <div id="panels" *ngFor="let title of titlesPanels; index as i" class="bx">
-        <div>
-            <h2>{{title}}</h2>
-            <span>{{subtitles[i]}}</span>
-        </div>
-        <div>
-            <button>click me</button>
+    <div *ngFor="let el of titlesPanels; index as i" class="bx panels panel-increase">
+        <div id="bg-black">
+            <div class="mb3">
+                <h2 class="ls3px">{{titlesPanels[i]}}</h2>
+                <span>{{subtitles[i]}}</span>
+            </div>
+            <div>
+                <button style="padding: 20px 50px">click me</button>
+            </div>
         </div>
     </div>
 
-    <div class="w40 h100 flex-column align-center justify-center text-center bx">
+    <div id="panel-profile" class="bx">
         <div>
             <img style="width: 100px;" src="../assets/img/newlogo.png" alt="">
         </div>

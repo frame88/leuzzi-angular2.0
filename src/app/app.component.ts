@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'leuzzi-angular2.0';
 
-  titlesPanels: string[] = ["Siti attivi", "Crea il tuo menu", "siti passati"];
+  titlesPanels: string[] = ["Siti attivi", "Crea il tuo menu", "Siti passati"];
   subtitles: string[] = ["lore ipsum", "lorem ipsum ipsum", "lorem lorem lorem lorem"];
 }
