@@ -1,22 +1,22 @@
-<div class="w100vw h100vh flex">
+<div id="container-max">
     <div id="panel-profile" class="bx">
         <div class="w100">
             <img style="width: 150px;" src="../assets/img/newlogo.png" alt="">
         </div>
-        <div class="w50 mt2 flex-column align-center">
+        <div id="container-info">
             <h1>Francesco Leuzzi</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, sunt nisi animi at distinctio eum
                 soluta dolor voluptas cupiditate quia officiis, harum dolore maiores quod mollitia. Illo nemo ex
                 temporibus!
             </p>
-            <p class="mb2 mt1">Se hai bisogno di metterti in contatto con me, puoi mandarmi una mail all'indirizzo <a href="mailto:fleuzzi97@gmail.com">fleuzzi97@gmail.com</a></p>
-            <a href="https://www.linkedin.com/in/francesco-leuzzi-5497a8221/?originalSubdomain=it" target="_blank" style="color: inherit;">
+            <p class="mt1">Se hai bisogno di metterti in contatto con me, puoi mandarmi una mail all'indirizzo <a href="mailto:fleuzzi97@gmail.com">fleuzzi97@gmail.com</a></p>
+            <a id="linkedin" href="https://www.linkedin.com/in/francesco-leuzzi-5497a8221/?originalSubdomain=it" target="_blank">
                 <h2><i class="fa-brands fa-linkedin"></i></h2>
             </a>
         </div>
     </div>
 
-    <div *ngFor="let el of titlesPanels; index as i" class="bx panels panel-increase" 
+    <div *ngFor="let el of titlesPanels; index as i" class="bx panels" 
         [ngClass]="{ 'bg-0': i === 0, 'bg-1':i === 1, 'bg-2':i === 2 }">
         <div id="bg-black">
             <div class="mb3">
