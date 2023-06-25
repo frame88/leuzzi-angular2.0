@@ -17,16 +17,18 @@
     </div>
 
     <div *ngFor="let el of titlesPanels; index as i" class="bx panels" 
-        [ngClass]="{ 'bg-0': i === 0, 'bg-1':i === 1, 'bg-2':i === 2 }">
-        <div id="bg-black">
-            <div class="mb3">
-                <h2 class="ls3px">{{titlesPanels[i]}}</h2>
-                <span>{{subtitles[i]}}</span>
+    [ngClass]="{ 'bg-0': i === 0, 'bg-1':i === 1, 'bg-2':i === 2 }">
+        <button id="mobile-focus">
+            <div id="bg-black">
+                <div class="mb3" style="white-space: nowrap;">
+                    <h2 class="ls3px">{{titlesPanels[i]}}</h2>
+                    <span>{{subtitles[i]}}</span>
+                </div>
+                <div>
+                    <button style="padding: 20px 50px">click me</button>
+                </div>
             </div>
-            <div>
-                <button style="padding: 20px 50px">click me</button>
-            </div>
-        </div>
+        </button>
     </div>
 
 </div>
