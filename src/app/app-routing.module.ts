@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MenuPageComponent } from './menu-page/menu-page.component';
 import { AppComponent } from './app.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent },
-  { path: 'home', component: AppComponent },
+  { path: 'home', component: HomepageComponent },
   { path: 'menu', component: MenuPageComponent }
 ];
 
