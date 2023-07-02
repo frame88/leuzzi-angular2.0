@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-/* You can add global styles to this file, and also import other style files */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -89,6 +88,10 @@ s .w100vw {
 
 .h38px {
     height: 38px !important;
+}
+
+.block {
+    display: block;
 }
 
 /*FLEX*/

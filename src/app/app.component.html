@@ -1,6 +1,6 @@
-<div id="container-max">
+<!-- <div id="container-max">
     <div id="panel-profile" class="bx">
-        <div class="w100">
+        <div [@fadeInOnEnter] [@fadeOutOnLeave] class="w100" >
             <img style="width: 150px;" src="../assets/img/newlogo.png" alt="">
         </div>
         <div id="container-info">
@@ -9,7 +9,7 @@
                 soluta dolor voluptas cupiditate quia officiis, harum dolore maiores quod mollitia. Illo nemo ex
                 temporibus!
             </p>
-            <p class="mt1">Se hai bisogno di metterti in contatto con me, puoi mandarmi una mail all'indirizzo <a href="mailto:fleuzzi97@gmail.com">fleuzzi97@gmail.com</a></p>
+            <p class="mt1"><strong>Se hai bisogno di metterti in contatto con me, puoi mandarmi una mail all'indirizzo</strong><a class="block" href="mailto:fleuzzi97@gmail.com">fleuzzi97@gmail.com</a></p>
             <a id="linkedin" href="https://www.linkedin.com/in/francesco-leuzzi-5497a8221/?originalSubdomain=it" target="_blank">
                 <h2><i class="fa-brands fa-linkedin"></i></h2>
             </a>
@@ -20,15 +20,17 @@
     [ngClass]="{ 'bg-0': i === 0, 'bg-1':i === 1, 'bg-2':i === 2 }">
         <button id="mobile-focus">
             <div id="bg-black">
-                <div class="mb3" style="white-space: nowrap;">
+                <div class="mb3 text-center" style="white-space: nowrap;">
                     <h2 class="ls3px">{{titlesPanels[i]}}</h2>
                     <span>{{subtitles[i]}}</span>
                 </div>
                 <div>
-                    <button style="padding: 10px 20px">Vai</button>
+                    <button style="padding: 10px 20px" (click)="clickButton('/menu')">Vai</button>
                 </div>
             </div>
         </button>
     </div>
 
-</div>
+</div> -->
+
+<router-outlet></router-outlet>
