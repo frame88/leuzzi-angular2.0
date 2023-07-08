@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -178,7 +178,23 @@ s .w100vw {
     margin: 0 !important;
 }
 
+.m03 {
+    margin: 0.3rem !important;
+}
+
+.m05 {
+    margin: 0.5rem !important;
+}
+
 .m1 {
+    margin: 1rem !important;
+}
+
+.m2 {
+    margin: 1rem !important;
+}
+
+.m3 {
     margin: 1rem !important;
 }
 

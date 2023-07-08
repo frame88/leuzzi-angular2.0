@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomepageComponent },
   { path: 'home', component: HomepageComponent },
   { path: 'menu', component: MenuPageComponent }
 ];

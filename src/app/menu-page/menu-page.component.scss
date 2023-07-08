@@ -1,0 +1,34 @@
+p {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-button {
+    width: 90vw;
+    border: 0;
+    height: 60px;
+    margin-bottom: 3rem;
+    background-image: url("../../assets/img/icons/chevron-right-solid.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 20%;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 10px 10px #88888882;
+        transition-duration: 0.3s;
+    }
+
+    h2 {
+        color: white;
+    }
+}
+
+.green {
+    background-color: #3A9679;
+}
+.yellow {
+    background-color: #FABC60;
+}
+.red {
+    background-color: #E16262;
+}
